@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  AVCamera
-//
-//  Created by Mustafa on 12.03.2021.
-//
-
 import UIKit
 
 @main

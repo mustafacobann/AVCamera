@@ -1,17 +1,24 @@
-//
-//  ViewController.swift
-//  AVCamera
-//
-//  Created by Mustafa on 12.03.2021.
-//
-
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var previewView: PreviewView!
+    
+    let cameraManager = CameraManager()
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        previewView.session = cameraManager.session
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        cameraManager.startSession()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        cameraManager.stopSession()
     }
 
 

@@ -13,6 +13,9 @@
 		45BA709925FBF0BB004F2F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BA709725FBF0BB004F2F98 /* Main.storyboard */; };
 		45BA709B25FBF0BC004F2F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BA709A25FBF0BC004F2F98 /* Assets.xcassets */; };
 		45BA709E25FBF0BC004F2F98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BA709C25FBF0BC004F2F98 /* LaunchScreen.storyboard */; };
+		45BA70AD25FBF243004F2F98 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA70AC25FBF243004F2F98 /* PreviewView.swift */; };
+		45BA70B025FBF4AC004F2F98 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA70AF25FBF4AC004F2F98 /* CameraManager.swift */; };
+		45BA70B325FC09D8004F2F98 /* AuthorizationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA70B225FC09D8004F2F98 /* AuthorizationStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		45BA709A25FBF0BC004F2F98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45BA709D25FBF0BC004F2F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45BA709F25FBF0BC004F2F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BA70AC25FBF243004F2F98 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		45BA70AF25FBF4AC004F2F98 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		45BA70B225FC09D8004F2F98 /* AuthorizationStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationStatus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				45BA709A25FBF0BC004F2F98 /* Assets.xcassets */,
 				45BA709C25FBF0BC004F2F98 /* LaunchScreen.storyboard */,
 				45BA709F25FBF0BC004F2F98 /* Info.plist */,
+				45BA70AC25FBF243004F2F98 /* PreviewView.swift */,
+				45BA70AF25FBF4AC004F2F98 /* CameraManager.swift */,
+				45BA70B225FC09D8004F2F98 /* AuthorizationStatus.swift */,
 			);
 			path = AVCamera;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				45BA709625FBF0BB004F2F98 /* ViewController.swift in Sources */,
+				45BA70AD25FBF243004F2F98 /* PreviewView.swift in Sources */,
 				45BA709225FBF0BB004F2F98 /* AppDelegate.swift in Sources */,
+				45BA70B325FC09D8004F2F98 /* AuthorizationStatus.swift in Sources */,
 				45BA709425FBF0BB004F2F98 /* SceneDelegate.swift in Sources */,
+				45BA70B025FBF4AC004F2F98 /* CameraManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
